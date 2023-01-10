@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Student/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Student.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Student.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Student/1.0.0": {
+      "type": "project",
+      "path": "../Student/Student.csproj",
+      "msbuildProject": "../Student/Student.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Student >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dac\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Atharva and Raju\\DOT NET\\Practice\\Assignment\\Tester\\Tester.csproj",
+      "projectName": "Tester",
+      "projectPath": "E:\\Atharva and Raju\\DOT NET\\Practice\\Assignment\\Tester\\Tester.csproj",
+      "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
+      "outputPath": "E:\\Atharva and Raju\\DOT NET\\Practice\\Assignment\\Tester\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "E:\\Atharva and Raju\\DOT NET\\Practice\\Assignment\\Student\\Student.csproj": {
+              "projectPath": "E:\\Atharva and Raju\\DOT NET\\Practice\\Assignment\\Student\\Student.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
